@@ -1,6 +1,6 @@
-# Project Title: Diner-Grand-Opening-Countdown-Timer
+# Project Title: Holiday Countdown Hub
 
-Created and Designed by Erwin Madjus
+Developed and Designed by Erwin Madjus
 Program Created for Cutie Hacks 2021
 
 Programming Languages Used: HTML, CSS, JavaScript
