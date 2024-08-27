@@ -3,13 +3,13 @@
 <head>
     <meta charset = "UTF-8">
     <meta name = "viewport" content = "width = device - width, initial - scale = 1.0">
-    <title>Countdowns to the Holidays (2024)</title>
+    <title>Holiday Countdown Hub - Thanksgiving</title>
     <link rel = "stylesheet" href = "design.css">
-    <script src = "script.js" defer></script>
+    <script src = "thanksgivingScript.js" defer></script>
     <style>
         /* Basic styling for a header */
         header {
-            background-color: #4CAF50;
+            background-color: #7D7979;
             color: white;
             padding: 10px 20px;
             text-align: center;
@@ -25,7 +25,7 @@
     </style>
 </head>
 
-<body>
+<body class = "thanksgiving">
 <header> 
     <nav>
         <a href = "home.html">Home</a>
@@ -34,6 +34,33 @@
         <a href = "contactMe.html">Contact Me</a>
     </nav>
 </header>
+
+<h1>Is It Thanksgiving Yet?</h1>
+
+<div class = "timer-block">
+    <div class = "time-element days-item">
+        <p class = "big-text" id = "daysThanksgiving">0</p>
+        <span>Days</span>
+</div>
+<div class = "timer-block">
+    <div class = "time-element hours-item">
+        <p class = "big-text" id = "hoursThanksgiving">0</p>
+        <span>Hours</span>
+</div>
+<div class = "timer-block">
+    <div class = "time-element minutes-item">
+        <p class = "big-text" id = "minutesThanksgiving">0</p>
+        <span>Minutes</span>
+</div>
+<div class = "timer-block">
+    <div class = "time-element seconds-item">
+        <p class = "big-text" id = "secondsThanksgiving">0</p>
+        <span>Seconds</span>
+</div>
+
+
+
+
 </body>
 
 </html>

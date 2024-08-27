@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,400;0,700;1,100&display=swap');
+
+	*{ 
+		box-sizing: border-box;
+	}
+
+body.home 
+	{
+		background-color: #3b7ab1;
+		background-size: cover;
+		background-position: center center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		min-height: 100vh;
+		font-family: 'Barlow', sans-serif;
+		margin: 0;
+	}
+
+body.halloween 
+	{
+		background-image: url(https://images.unsplash.com/photo-1474591424615-7fe467c7fac9?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+		background-size: cover;
+		background-position: center center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		min-height: 100vh;
+		font-family: 'Barlow', sans-serif;
+		margin: 0;
+	}
+
+
+body.thanksgiving 
+	{
+		background-image: url(https://images.unsplash.com/photo-1509460691319-135d8cfa14f9?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+		background-size: cover;
+		background-position: center center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		min-height: 100vh;
+		font-family: 'Barlow', sans-serif;
+		margin: 0;
+	}	
+
+body.christmas 
+	{
+		background-image: url(https://images.unsplash.com/photo-1638736276913-6758b82d38be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+		background-size: cover;
+		background-position: center center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		min-height: 100vh;
+		font-family: 'Barlow', sans-serif;
+		margin: 0;
+	}
+
+
+body.contact 
+	{
+		background-color: #3b7ab1;
+		background-size: cover;
+		background-position: center center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		min-height: 100vh;
+		font-family: 'Barlow', sans-serif;
+		margin: 0;
+	}	
+
+
+h1
+	{
+		font-weight: normal; 
+		font-size: 4rem;
+	 	margin-top: 5rem;
+	}
+
+.timer-block	
+	{
+		display: flex;
+	}
+
+.big-text	
+	{
+		font-weight: bold;
+		font-size: 6rem;
+		line-height: 1;
+		margin: 0 2rem;
+	}
+
+.time-element	
+	{
+		text-align: center;
+		align-items: center;
+	}
+
+.time-element span 	
+	{
+		font-size: 1.5rem;
+	}
